@@ -1,0 +1,24 @@
+<?php
+
+/** MySQL database name for Osclass */
+define('DB_NAME', 'osclass');
+
+/** MySQL database username */
+define('DB_USER', 'root');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'password');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+define("LDAP_SERVER", "localhost");
+define("LDAP_ADMIN_PASSWORD", "password");
+define("LDAP_PEOPLE_DOMAIN", "ou=people, dc=domain, dc=com");
+define("LDAP_ADMIN_DOMAIN", "cn=admin, dc=com");
+
+define("EMAIL_DOMAIN", "domain");
+
+define("CLASSIFIEDS_URL", "http://yourdomain/osclass");
+
+?>
