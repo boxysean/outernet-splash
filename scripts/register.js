@@ -51,7 +51,7 @@ require(['login', 'jquery', 'jqueryvalidate', 'bootstrap'], function (login, $) 
                     .appendTo($("#error-message"))
                     .delay(2000)
                     .fadeOut(2000, function() { $(this).remove(); });
-                $(location).attr("href", "/index.php?v=index&a=registered");
+                $(location).attr("href", "./index.php?v=index&a=registered");
             }
         });
         return false;
